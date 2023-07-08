@@ -159,7 +159,20 @@ main{
 }
 footer{
     display: flex;
+    gap: 100px;
     background: #f5e7d7;
     padding: 50px 70px;
     margin-top: 100px;
+}
+.futter-colam{
+    width: 50%;
+}
+.contact input[type="text"], .contact input[type="email"], textarea{
+    display: block;
+    margin-bottom: 30px;
+    padding: 18px 30px;
+    color: #8d8b8b;
+    border-radius: 5px;
+    border: 0;
+    width: 100%;
 }
